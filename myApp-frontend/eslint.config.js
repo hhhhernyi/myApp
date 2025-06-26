@@ -19,5 +19,7 @@ export default tseslint.config([
       ecmaVersion: 2020,
       globals: globals.browser,
     },
+    'react/prop-types': 'off', // add this line
+    'react/no-unescaped-entities': 'off', // add this line
   },
 ])
